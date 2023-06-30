@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CST5354Suite">
+  <test thread-count="2" parallel="methods" name="CST5354Test">
+    <classes>
+      <class name="tests.LoginTest"/>
+      <class name="tests.LoginTest2"/>
+    </classes>
+  </test> <!-- CST5354Test -->
+</suite> <!-- CST5354Suite -->
